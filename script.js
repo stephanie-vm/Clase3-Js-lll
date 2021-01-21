@@ -50,4 +50,4 @@ console.log(tablaJavaScript[3].innerText);
   Selecciona y loguea la celda que dice CSS
 */
 const celdaCss = document.querySelectorAll('td');
-console.log(celdaCss[4].innerHTML);
+console.log(celdaCss[4].innertext);
