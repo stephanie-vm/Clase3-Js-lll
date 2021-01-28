@@ -51,3 +51,14 @@ console.log(tablaJavaScript[3].innerText);
 */
 const celdaCss = document.querySelectorAll('td');
 console.log(celdaCss[4].innertext);
+
+/*
+  EJERCICIO F: --------------------------------------------
+  
+  Investiga un metodo de algun elemento y trae un ejemplo de
+  para que lo usarias
+*/
+const tituloEjemplo = document.getElementsByTagName("H1")[0];   
+const atributoTitulo = document.createAttribute("class");       
+atributoTitulo.value = "Ejemplo";                           
+tituloEjemplo.setAttributeNode(atributoTitulo);                        
